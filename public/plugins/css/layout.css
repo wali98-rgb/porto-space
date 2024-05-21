@@ -1,0 +1,26 @@
+:root {
+    --prmUsr : #0056b8;
+    --nvb: rgba(0, 86, 184, .8);
+    --crs: rgba(0, 97, 177, 0.7);
+    --fclr: #ffffff;
+    --lact: #c5c5c5;
+    --bg: #bdbdbd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--bg);
+}

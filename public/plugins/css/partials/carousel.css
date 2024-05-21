@@ -1,0 +1,23 @@
+.carousel-ttl {
+    padding: 0 7%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 25%;
+    background-color: var(--crs);
+    color: var(--fclr);
+    z-index: 1;
+}
+
+.carousel-ttl h1 {
+    font-size: 3rem;
+}
+
+.carousel-ttl p {
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
