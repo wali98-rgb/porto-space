@@ -1,10 +1,14 @@
 :root {
-    --prmUsr : #0056b8;
-    --nvb: rgba(0, 86, 184, .8);
+    --prmUsr: #0056b8;
+    --scdUsr: #5700a8;
+    --nvb: rgba(73, 121, 175, 0.8);
     --crs: rgba(0, 97, 177, 0.7);
     --fclr: #ffffff;
+    --fclr2: #000000;
+    --fclr3: #001227;
     --lact: #c5c5c5;
     --bg: #bdbdbd;
+    --brrd: .3rem;
 }
 
 * {
@@ -17,10 +21,13 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: "Reddit Sans", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 body {
     min-height: 100vh;
-    background-color: var(--bg);
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }

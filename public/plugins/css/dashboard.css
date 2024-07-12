@@ -1,0 +1,274 @@
+/* Content Session CSS */
+.c0T3n {
+    padding: 0 0 2rem;
+}
+
+/* Reason Session CSS */
+.c0T3n .c0T3n-12seN {
+    padding: 0 7%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    color: var(--fclr);
+}
+
+.c0T3n .c0T3n-12seN .c0T3n-12seN-c4rD {
+    padding: 1rem;
+    width: 30%;
+    min-height: 50vh;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    background-color: rgba(123, 15, 224, 0.8);
+    border-radius: .3rem;
+}
+
+.c0T3n .c0T3n-12seN .c0T3n-12seN-c4rD i {
+    font-size: 5rem;
+}
+
+.c0T3n .c0T3n-12seN .c0T3n-12seN-c4rD h3 {
+    font-size: 2rem;
+}
+
+.c0T3n .c0T3n-12seN .c0T3n-12seN-c4rD p {
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.2rem;
+}
+
+/* Reason Session CSS */
+
+/* Excess Session CSS */
+.eXc35 {
+    padding: 8rem 7%;
+    display: flex;
+}
+
+.eXc35 .eXc35-1mg {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+}
+
+.eXc35 .eXc35-1mg img {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: .3rem;
+}
+
+.eXc35 .eXc35-m4iN {
+    width: 70%;
+    font-family: "Rubik", sans-serif;
+}
+
+.eXc35 .eXc35-m4iN span {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--prmUsr);
+}
+
+.eXc35 .eXc35-m4iN span i {
+    margin: 0 .5rem 0 0;
+    font-size: 1.1rem;
+}
+
+.eXc35 .eXc35-m4iN h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.eXc35 .eXc35-m4iN p {
+    padding: 0 0 .3rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.eXc35 .eXc35-m4iN .Li5t {
+    padding: .7rem 0 1.3rem;
+    display: flex;
+}
+
+.eXc35 .eXc35-m4iN .Li5t ul:first-child {
+    padding: 0 5rem 0 0;
+}
+
+.eXc35 .eXc35-m4iN .Li5t ul {
+    padding: 0;
+    line-height: 1.1rem;
+}
+
+.eXc35 .eXc35-m4iN .Li5t ul li i {
+    font-size: 1.5rem;
+    color: var(--prmUsr);
+}
+
+.eXc35 .eXc35-m4iN a {
+    padding: .7rem 1.3rem;
+    /* display: flex;
+    align-items: center; */
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--fclr);
+    background-color: var(--scdUsr);
+    border-radius: 1rem;
+}
+
+.eXc35 .eXc35-m4iN a i {
+    margin: 0 1rem 0 0;
+    font-size: 1.6rem;
+}
+
+/* Excess Session CSS */
+
+/* Portofolio Card Session CSS */
+.p0rtOx {
+    padding: 4rem 7%;
+    background-color: var(--bg);
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxTT1 {
+    padding: 0 0 1rem;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxTT1 h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p0rtOx .p0rtOx-m4iN .c0n7Ca {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 7%;
+    width: 12rem;
+    height: 31.5%;
+    background-color: rgba(0, 86, 184, .8);
+    border-radius: 0 .3rem .3rem 0;
+}
+
+.p0rtOx .p0rtOx-m4iN .c0n7Ca a {
+    padding: .5rem 1rem;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    color: var(--fclr);
+    border: 1px solid var(--fclr);
+    border-radius: var(--brrd);
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .C4rA {
+    /* background-color: red; */
+    margin: .5rem;
+    min-width: 22%;
+    max-width: 22%;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    color: var(--fclr3);
+    transition: all .3s ease-in-out;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .C4rA:hover {
+    min-width: 23%;
+    max-width: 23%;
+}
+
+/* .p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt a {
+    margin: .5rem;
+} */
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd {
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: var(--brrd);
+    box-shadow: 0 0 10px -3px var(--fclr2);
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd:hover {
+    box-shadow: 0 0 20px -3px var(--fclr2);
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rd1m9 {
+    padding: .3rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rd1m9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: .3rem .3rem 0 0;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rdM {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rd4Esc {
+    padding: .5rem .5rem 0;
+    height: 5rem;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rd4Esc h3 {
+    font-size: 1.3rem;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rd4Esc p {
+    margin: 0;
+    font-size: .8rem;
+}
+
+/* 
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rdF0ot {
+    padding: .5rem 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rdF0ot a {
+    display: flex;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+}
+
+.p0rtOx .p0rtOx-m4iN .Mp0rtOxC0nt .Mp0rC4rd .C4rdF0ot a i {
+    margin: 0 0 0 .5rem;
+} */
+
+/* Portofolio Card Session CSS */
+
+/* Services Session CSS */
+.ser51s3 {
+    padding: 4rem 7%;
+}
+
+.ser51s3 .serwrap .sercard {
+    padding: 1rem;
+    background-color: silver;
+    border-radius: var(--brrd);
+}
+
+/* Services Session CSS */
+/* Content Session CSS */

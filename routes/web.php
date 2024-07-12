@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Routing Client
 Route::get('/', function () {
-    return view('dashboard', ['ttl_web' => 'Dashboard Page || PortoSpace', 'title' => 'Dashboard']);
+    return view('client.dashboard', ['ttl_web' => 'Dashboard Page || PortoSpace', 'title' => 'Dashboard']);
 });
 
 Route::get('/portofolio', function () {
-    return view('portofolio', ['ttl_web' => 'Portofolio Page || PortoSpace', 'title' => 'Portofolio']);
+    return view('client.portofolio', ['ttl_web' => 'Portofolio Page || PortoSpace', 'title' => 'Portofolio']);
 });
+
+// Routing Admin

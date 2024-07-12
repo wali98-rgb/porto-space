@@ -2,4 +2,6 @@
     <x-slot name="ttl">{{ $ttl_web }}</x-slot>
 
     <x-slot name='ttl_head'>{{ $title }}</x-slot>
+
+    <x-slot name='head_carousel'>{{ $title }}</x-slot>
 </x-layout>

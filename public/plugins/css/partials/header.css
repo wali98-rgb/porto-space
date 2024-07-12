@@ -1,3 +1,22 @@
 .h3A4 {
     padding: 5rem 7%;
 }
+
+.h3A4::after {
+    margin: 0;
+    padding: 0;
+    display: block;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    min-height: 10%;
+    background: linear-gradient(180deg, var(--crs) 8%, rgba(44, 0, 62, 0) 50%);
+}
+
+.h3A4 .h3A4-tTl {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+}

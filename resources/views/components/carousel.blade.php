@@ -1,7 +1,7 @@
 <div id="carouselExampleIndicators" class="carousel slide bg-secondary" data-bs-ride="carousel">
     <div class="carousel-ttl">
         <div class="carousel-ttl-main">
-            <h1>Dashboard Page</h1>
+            <h1>{{ $slot }}</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat corporis eveniet rem facilis
                 iure,
                 numquam ratione laborum possimus nostrum nemo libero necessitatibus magni culpa accusamus architecto

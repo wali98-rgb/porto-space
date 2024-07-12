@@ -11,8 +11,8 @@
         <a href="/portofolio" :active="request(false) - > is('portofolio')"
             class="{{ $active ?? false ? 'l14ct' : 'l1nO4ct' }}">Portofolio</a>
         <a href="/contact" :active="request() - > is('contact')"
-            class="{{ $active ?? false ? 'l14ct' : 'l1nO4ct' }}">Contact</a>
+            class="{{ $active ?? false ? 'l14ct' : 'l1nO4ct' }}">Kontak</a>
         <a href="/about" :active="request() - > is('about')"
-            class="{{ $active ?? false ? 'l14ct' : 'l1nO4ct' }}">About</a>
+            class="{{ $active ?? false ? 'l14ct' : 'l1nO4ct' }}">Tentang Kami</a>
     </div>
 </div>
