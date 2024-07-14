@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/master', function () {
+//     return view('welcome');
+// });
 // Routing Client
 Route::get('/', function () {
     return view('client.dashboard', ['ttl_web' => 'Dashboard Page || PortoSpace', 'title' => 'Dashboard']);
@@ -23,3 +27,10 @@ Route::get('/portofolio', function () {
 });
 
 // Routing Admin
+Route::prefix('aDmIn')->group(function () {
+    Route::get('/', function () {
+        return view('admin.home');
+    })->name('admin.home');
+
+    Route::resource('language', LanguageController::class);
+});
